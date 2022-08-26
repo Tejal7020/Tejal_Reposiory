@@ -20,8 +20,7 @@ public class LoginPage extends BaseTest {
     
     @FindBy(xpath = "//h5[text() = 'Login']")
    	WebElement txtLoginPage;
-	
-	
+
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
