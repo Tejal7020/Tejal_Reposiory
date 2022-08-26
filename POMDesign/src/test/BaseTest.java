@@ -34,7 +34,12 @@ public class BaseTest {
 		pimPage = new PimPage(driver);
 	}
 	
-	@AfterClass
+	/*@AfterClass
+	public void tearDownEnvirnment() {
+		driver.quit();
+	}*/
+	
+	@AfterClass 
 	public void tearDownEnvirnment() {
 		driver.quit();
 	}
